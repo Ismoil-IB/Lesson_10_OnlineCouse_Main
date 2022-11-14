@@ -1,0 +1,412 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap);
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: 'Lato';
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+/* ------------------------------ */
+
+
+.who-we-are {
+	padding-top: 50px;
+}
+.who-we-are__items {
+	display: flex;
+}
+.item {
+}
+.item__image {
+	flex: 0 0 705px;
+
+}
+
+.item__image{
+	max-width: 705px;
+}
+.item__text-block {
+	flex: 1 1 100%;
+	padding: 0px 0px 0px 135px;
+}
+.block-text {
+}
+.top-title {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1E212C;
+	margin: 0px 0px 8px 0px;
+}
+.bottom-title {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.25;
+	color: #1E212C;
+	margin: 0px 0px 40px 0px;
+}
+.block-text__list {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.62500;
+	color: #424551;
+	margin: 0px 0px 22px 0px;
+
+}
+
+.block-text__list li{
+	padding: 0px 0px 0px 32px;
+	background: url('../img/icon/check.svg') 0 5px no-repeat;
+}
+
+.block-text__list li:not(:last-child){
+	margin: 0px 0px 12px 0px;
+}
+.button {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 3.14285714286;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #FFFFFF;
+	padding: 17px 32px;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	border-radius: 4px;
+}
+
+.courses {
+	padding: 180px 0px 0px 0px;
+}
+.courses__header {
+	display: flex;
+	justify-content: space-between;
+}
+.courses__text {
+}
+.courses__title-top {
+}
+.top-title {
+}
+.courses__title-bottom {
+	margin-bottom: 0;
+}
+.bottom-title {
+}
+.button {
+}
+.button-wite {
+	align-self: center;
+	padding: 0px 40px;
+	border: solid 1px #F8580D;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+
+}
+
+
+.courses{
+	
+}
+
+.courses__row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -15px;
+	padding-top: 60px;
+}
+.courses__column {
+	padding: 0px 15px;
+	flex: 0 1 50%;
+	margin: 0px 0px 30px 0px;
+}
+
+.courses__items {
+	
+}
+.item {
+	
+}
+.item__row {
+	display: flex;
+	border: 1px solid #E5E8ED;
+	box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+	border-radius: 4px;
+}
+
+.item__row:hover{
+	content: "";
+}
+
+.item__img {
+	flex: 0 0 214px;
+	
+}
+
+
+.item__body {
+	flex: 1 1 auto;
+	padding: 0px 0px 0px 32px;
+	padding-top: 32px;
+}
+.item__profession {
+	display: inline-block;
+	padding: 1px 10.341px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #FFFFFF;
+	background-color: #03CEA4;
+	border-radius: 4px;	
+	margin: 0px 0px 20px 0px;
+}
+
+.blue{
+	background: #5A87FC;
+}
+.orange{
+	background: #F89828;
+}
+.pinck{
+	background: #F52F6E;
+}
+.item__title {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1E212C;
+	margin: 0px 0px 20px 0px;
+	
+}
+.item__price {
+	font-family: 'Lato';
+	font-style: normal;
+	display: inline-block;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #FF4242;
+}
+.item__teacher-name {
+	font-family: 'Lato';
+	font-style: normal;
+	display: inline-block;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #787A80;
+}
+
+.item__teacher-name::before{
+	content: "|";
+	color: #787A80;
+	padding: 0px 4px 0px 0px;
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+
+.benefits {
+	padding-top: 150px;
+}
+.benefits__title-top {
+	text-align: center;
+}
+
+.benefits__title-bottom{
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.top-title {
+}
+.bottom-title {
+}
+
+.benefits__row {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.benefits__link {
+	position: relative;
+
+}
+
+.benefits__link{
+	flex: 0 0 307px;
+	align-items: center;
+}
+
+.row__text {
+	
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.62500;
+	text-align: center;	
+	color: #9A9CA5;
+	padding: 10px 74px 10px 74px;
+}
+
+.row__text:hover{
+	outline: solid 2px #FF3F3A;
+	border-radius: 4px;
+	color: #FF3F3A;
+}
+.star{
+	
+}
+
+.star::before{
+	content: "";
+	background: url('../img/icon/Star.svg') 0 0 no-repeat;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 15px;
+	left: 60px;
+}
+
+.star:hover::before{
+	background: url('../img/icon/Star\ pink.svg') 0 0 no-repeat;
+}
+
+.like::before{
+	content: "";
+	background: url('../img/icon/like.svg') 0 0 no-repeat;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 15px;
+	left: 60px;
+}
+
+.like:hover::before{
+	background: url('../img/icon/like\ pink.svg') 0 0 no-repeat;
+}
+
+.layouts::before{
+	content: "";
+	background: url('../img/icon/Layouts.svg') 0 0 no-repeat;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 15px;
+	left: 60px;
+}
+
+.layouts:hover::before{
+	background: url('../img/icon/Layouts\ pink.svg') 0 0 no-repeat;
+}
+
+.chat::before{
+	content: "";
+	background: url('../img/icon/Chat.svg') 0 0 no-repeat;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 15px;
+	left: 90px;
+}
+
+.chat:hover::before{
+	background: url('../img/icon/Chat\ pinck.svg') 0 0 no-repeat;
+}
+
+
+.benefits__body {
+	padding-top: 60px;
+	display: flex;
+}
+.body__title {
+	flex: 0 1 50%;
+}
+.body__bottom-title {
+	padding-top: 122px;
+	font-size: 32px;
+	margin-bottom: 24px;
+}
+.body__text {
+	font-family: 'Lato';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.62500;
+	color: #424551;
+	max-width: 495px;
+}
+.body__img {
+	flex: 0 1 50%;
+}
+
+
+
+
+
